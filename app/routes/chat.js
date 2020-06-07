@@ -1,0 +1,10 @@
+//Configuração para acessar a sala de chat via post no formulário html
+module.exports = function (application) {
+    application.post('/chat', function (req, res) {
+        application.app.controllers.chat.iniciaChat(application, req, res);
+    });
+
+    application.get('/chat', function (req, res) {
+        application.app.controllers.chat.iniciaChat(application, req, res);
+    });
+}

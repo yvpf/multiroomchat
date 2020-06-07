@@ -1,0 +1,22 @@
+1) Criar uma pasta
+2) Iniciar o NPM
+3) express --> npm install express --save
+4) ejs --> npm install ejs --save
+5) consign --> npm install consign --save
+6) body-parser --> npm install body-parser --save
+7) express-validator --> npm install express-validator@5.3.1
+8) criar pasta config e dentro dele server.js
+9) criar EntryPoint para aplicação --> app.js (raiz)
+10) criar a pasta app e dentro dela criar os diretorios com base em MVC
+    10.1) criar pasta views
+    10.2) criar pasta models
+    10.3) criar pasta controllers
+    10.4) criar pasta routes
+    10.5) criar pasta public
+        10.5.1) criar a pasta css
+        10.5.2) criar a pasta imagens
+        10.5.3) criar a pasta js (scripts que rodam no cliente)
+
+11)Configurar o servidor
+
+12)
